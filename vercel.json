@@ -3,20 +3,12 @@
   "builds": [],
   "routes": [
     {
-      "src": "/(.*).js",
+      "src": "/(.*).(?:ico|gif|jpe?g|png|woff2?|eot|otf|ttf|svg|js|css|webmanifest)",
       "headers": {
         "Cache-Control": "public, max-age=31536000, immutable",
         "X-Content-Type-Options": "nosniff"
       }
-    },
-    {
-      "src": "/sw.js",
-      "headers": {
-        "Cache-Control": "public, max-age=43200, immutable",
-        "Service-Worker-Allowed": "/",
-        "X-Content-Type-Options": "nosniff"
-      }
-    },
+    }, 
     {
       "src": "/(.*)",
       "headers": {
