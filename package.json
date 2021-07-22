@@ -9,7 +9,8 @@
     "email": "peerless_hero@outlook.com"
   },
   "repository": {
-    
+    "type": "git",
+    "url": "git@e.coding.net:peerless/web_portals/blog.git"
   },
   "scripts": {
     "build": "hexo generate",
@@ -21,7 +22,7 @@
     "version": "5.4.0"
   },
   "dependencies": {
-    "hexo": "^5.0.0", 
+    "hexo": "^5.4.0", 
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^2.0.0",
