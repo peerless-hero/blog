@@ -1,5 +1,6 @@
 {
-  "name": "hexo-site",
+  "name": "peerless_blog",
+  "displayName": "无双的博客项目",
   "version": "0.0.0",
   "private": true, 
   "description": "以博客的形式介绍项目情况",
@@ -32,5 +33,9 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
     "hexo-theme-landscape": "^0.0.3"
+  },
+  "engines": {
+    "node": "12.x",
+    "yarn": "1.x"
   }
 }
