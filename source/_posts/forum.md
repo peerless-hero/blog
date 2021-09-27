@@ -3,7 +3,7 @@ title: forum
 author: 无双的英雄
 date: 2021-07-19 01:08:22
 ---
-### [v.forum](http://v.forum.peerless.vip/)/[l.forum](http://l.forum.peerless.vip/)
+### [v.forum](http://v.forum.peerless-hero.top/)/[l.forum](http://l.forum.peerless-hero.top/)
 
 个人的早期练手项目，目的是掌握Nodejs的Express的服务端搭建技术，增加Vuejs、Nuxt.js相关的实践经验。
 
