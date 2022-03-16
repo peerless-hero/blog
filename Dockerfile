@@ -1,6 +1,9 @@
 # 静态化部署方案
-# 需要先在 CI平台打包生成public目录，然后运行
-FROM nginx:1.21.0-alpine
+# 需要先在Jenkins打包生成dist目录，然后运行
+FROM nginx:1.21.5-alpine
+
+# 设置时区，使nginx日志的时间变为中国标准时间
+ENV TZ=CST-8
 
 # 此配置可以通过yml的configs选项覆盖
 COPY nginx.conf /etc/nginx/conf.d/default.conf
