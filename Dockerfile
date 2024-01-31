@@ -1,6 +1,6 @@
 # 静态化部署方案
 # 需要先在Jenkins打包生成dist目录，然后运行
-FROM nginx:1.21.5-alpine
+FROM nginx:1.24-alpine
 
 # 设置时区，使nginx日志的时间变为中国标准时间
 ENV TZ=CST-8
